@@ -9,7 +9,7 @@ if(currentProgress >= 0 && currentProgress <= array_length_1d(narrationSequence)
 	global.inDialogue = true
 }else{
 	narrationSequence = 0
-	narrationSequence[0] = 0
+	narrationSequence[0] = [0]
 	currentProgress = -100
 	global.inDialogue = false
 }
@@ -20,7 +20,7 @@ if(global.inDialogue && array_length_1d(narrationSequence[currentProgress]) > 1)
 		if(choice > 2){
 			choice = 1
 		}
-	}else if(global.inDialogue && keyboard_check_pressed(vk_up)){
+	}else if(keyboard_check_pressed(vk_up)){
 		choice--
 		if(choice < 1){
 			choice = 2
