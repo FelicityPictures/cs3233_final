@@ -61,7 +61,7 @@ if(!global.inDialogue){
 	}
 }
 
-if(keyboard_check_pressed(vk_space)){
+if(!global.inDialogue and keyboard_check_pressed(vk_space)){
 	if(sprite_index == spr_player_horizontalWalk and image_xscale == 1){		//right
 		objectInteract = collision_rectangle(x+(sprite_width/2), y-(sprite_height/4),
 							   x+sprite_width, y+(sprite_height/4),
@@ -82,7 +82,10 @@ if(keyboard_check_pressed(vk_space)){
 	if(objectInteract != noone){
 		//FIGURE THIS OUT
 		dialogueManager = instance_find(obj_dialogueManager, 0)
-		dialogueManager.narrationSequence = objectInteract.dialogueSequence
+		dialogueManager.narrationSequence = 0
+		for(i = 0; i < array_length_1d(objectInteract.dialogueSequence); i++){
+			dialogueManager.narrationSequence[i] = objectInteract.dialogueSequence[i]
+		}
 		dialogueManager.currentProgress = 0
 	}
 }
