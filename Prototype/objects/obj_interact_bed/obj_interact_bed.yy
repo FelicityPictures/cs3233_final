@@ -1,14 +1,23 @@
 {
-    "id": "342849b8-c6ac-4586-87ad-48227933d0b9",
+    "id": "f785650c-a2f3-4406-bfed-7ae1f1941310",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_rm01_door",
+    "name": "obj_interact_bed",
     "eventList": [
-        
+        {
+            "id": "ad88c88c-11dd-439c-9051-3c94309bb6f3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f785650c-a2f3-4406-bfed-7ae1f1941310"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "b5f9b0a4-8467-4d42-9f52-fa0605a96662",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8253dfe7-c488-4e6e-9223-0a2907e16ab8",
+    "spriteId": "0b345e2b-1c6d-4ea5-bca2-d4b9d84ef7d2",
     "visible": true
 }

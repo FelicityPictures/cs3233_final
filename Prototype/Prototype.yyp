@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -122,7 +122,7 @@
             "Key": "342849b8-c6ac-4586-87ad-48227933d0b9",
             "Value": {
                 "id": "cb7d5402-2c5a-46ed-8db3-35a6b6c717b7",
-                "resourcePath": "objects\\obj_rm01_door\\obj_rm01_door.yy",
+                "resourcePath": "objects\\obj_interact_door\\obj_interact_door.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -231,14 +231,6 @@
             }
         },
         {
-            "Key": "6a39ee6f-86ac-4d15-bde6-de6490af806a",
-            "Value": {
-                "id": "500c49c7-9a71-48fe-a8f6-7d5b5ca83682",
-                "resourcePath": "objects\\obj_interact_book\\obj_interact_book.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6c607c0b-8e51-4c6d-9d15-292e0aa226c5",
             "Value": {
                 "id": "a07044c3-bd8e-40b1-8bd7-480e2951be89",
@@ -306,7 +298,7 @@
             "Key": "abf71fd4-8cfa-4dfa-9a09-25d99ceecdda",
             "Value": {
                 "id": "ec4e24af-4999-4043-8e8b-897c5c48c57b",
-                "resourcePath": "objects\\obj_rm01_rug\\obj_rm01_rug.yy",
+                "resourcePath": "objects\\obj_static_rug\\obj_static_rug.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -314,7 +306,7 @@
             "Key": "b2e2482a-6716-492a-b46a-b7c04873e5c3",
             "Value": {
                 "id": "743f01bc-a797-416e-9a17-1340dc08b6e9",
-                "resourcePath": "objects\\obj_rm01_wardrobe\\obj_rm01_wardrobe.yy",
+                "resourcePath": "objects\\obj_interact_wardrobe\\obj_interact_wardrobe.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -378,7 +370,7 @@
             "Key": "d076577d-569b-4b1e-8690-6fcf95902b44",
             "Value": {
                 "id": "fc412149-60a9-4f8f-a30e-08209cb5561d",
-                "resourcePath": "rooms\\rm01\\rm01.yy",
+                "resourcePath": "rooms\\rm_bedroom\\rm_bedroom.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -434,7 +426,7 @@
             "Key": "e1c5ad2f-3327-4b5a-b508-99afec6c64de",
             "Value": {
                 "id": "e9d697c1-1d61-4b04-82a5-76331fad37ba",
-                "resourcePath": "objects\\obj_rm01_pframe\\obj_rm01_pframe.yy",
+                "resourcePath": "objects\\obj_interact_picture\\obj_interact_picture.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -452,14 +444,6 @@
                 "id": "f1b9e600-3838-430b-9512-a4c97f8e4618",
                 "resourcePath": "views\\e84080d7-02ac-4a8f-b261-c63817d15a1a.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "eb239b8d-e3be-4165-8d20-ff753d3769ed",
-            "Value": {
-                "id": "02b2b12b-1980-4b28-9c49-ffe9b42acc9f",
-                "resourcePath": "rooms\\rm_bedroom\\rm_bedroom.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -506,7 +490,7 @@
             "Key": "f59331fd-ad13-4cd7-a5c9-3473729552c2",
             "Value": {
                 "id": "6652c397-0ca3-4399-856a-5648ead8be40",
-                "resourcePath": "objects\\obj_rm01_mirror\\obj_rm01_mirror.yy",
+                "resourcePath": "objects\\obj_interact_mirror\\obj_interact_mirror.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -514,7 +498,7 @@
             "Key": "f785650c-a2f3-4406-bfed-7ae1f1941310",
             "Value": {
                 "id": "e3ba99e2-fe23-4f4c-b2bb-0413ce7c2f27",
-                "resourcePath": "objects\\obj_rm01_bed\\obj_rm01_bed.yy",
+                "resourcePath": "objects\\obj_interact_bed\\obj_interact_bed.yy",
                 "resourceType": "GMObject"
             }
         },

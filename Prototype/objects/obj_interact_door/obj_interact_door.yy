@@ -1,14 +1,23 @@
 {
-    "id": "e1c5ad2f-3327-4b5a-b508-99afec6c64de",
+    "id": "342849b8-c6ac-4586-87ad-48227933d0b9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_rm01_pframe",
+    "name": "obj_interact_door",
     "eventList": [
-        
+        {
+            "id": "c856eaf8-1345-49f7-b9b8-c3a32e0df595",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "342849b8-c6ac-4586-87ad-48227933d0b9"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "b5f9b0a4-8467-4d42-9f52-fa0605a96662",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "4a355c96-0903-44f4-9fd4-5216b1da2a6b",
+    "spriteId": "8253dfe7-c488-4e6e-9223-0a2907e16ab8",
     "visible": true
 }

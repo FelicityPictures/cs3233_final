@@ -8,11 +8,11 @@
         "342849b8-c6ac-4586-87ad-48227933d0b9",
         "f59331fd-ad13-4cd7-a5c9-3473729552c2",
         "e1c5ad2f-3327-4b5a-b508-99afec6c64de",
-        "abf71fd4-8cfa-4dfa-9a09-25d99ceecdda",
-        "b2e2482a-6716-492a-b46a-b7c04873e5c3"
+        "b2e2482a-6716-492a-b46a-b7c04873e5c3",
+        "abf71fd4-8cfa-4dfa-9a09-25d99ceecdda"
     ],
     "filterType": "GMObject",
-    "folderName": "rm01",
+    "folderName": "interactable objects",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

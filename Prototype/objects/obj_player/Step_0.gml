@@ -2,7 +2,7 @@
 if(!global.inDialogue){
 	if(keyboard_check(vk_right)){
 		x += velocity
-		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y-(sprite_height/2),
+		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y+(sprite_height/4),
 							   x+(sprite_width/2), y+(sprite_height/2),
 							   obj_interact, false, true)
 		if(bumpedIntoObject != noone){
@@ -12,12 +12,12 @@ if(!global.inDialogue){
 			}
 			x -= velocity
 		}
-		sprite_index = spr_player_horizontalWalk
-		image_xscale = 1
+		sprite_index = spr_player_walk_side1
+		image_xscale = -1
 		image_speed = 1
 	}else if(keyboard_check(vk_left)){
 		x -= velocity
-		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y-(sprite_height/2),
+		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y+(sprite_height/4),
 							   x+(sprite_width/2), y+(sprite_height/2),
 							   obj_interact, false, true)
 		if(bumpedIntoObject != noone){
@@ -27,12 +27,12 @@ if(!global.inDialogue){
 			}
 			x += velocity
 		}
-		sprite_index = spr_player_horizontalWalk
-		image_xscale = -1
+		sprite_index = spr_player_walk_side1
+		image_xscale = 1
 		image_speed = 1
 	}else if(keyboard_check(vk_up)){
 		y -= velocity
-		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y-(sprite_height/2),
+		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y+(sprite_height/4),
 							   x+(sprite_width/2), y+(sprite_height/2),
 							   obj_interact, false, true)
 		if(bumpedIntoObject != noone){
@@ -42,11 +42,11 @@ if(!global.inDialogue){
 			}
 			y += velocity
 		}
-		sprite_index = spr_player_verticalWalk_up
+		sprite_index = spr_player_walk_up
 		image_speed = 1
 	}else if(keyboard_check(vk_down)){
 		y += velocity
-		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y-(sprite_height/2),
+		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y+(sprite_height/4),
 							   x+(sprite_width/2), y+(sprite_height/2),
 							   obj_interact, false, true)
 		if(bumpedIntoObject != noone){
@@ -56,21 +56,22 @@ if(!global.inDialogue){
 			}
 			y -= velocity
 		}
-		sprite_index = spr_player_verticalWalk_down
+		sprite_index = spr_player_walk_down
 		image_speed = 1
 	}
 }
 
+// check interactions
 if(!global.inDialogue and keyboard_check_pressed(vk_space)){
-	if(sprite_index == spr_player_horizontalWalk and image_xscale == 1){		//right
-		objectInteract = collision_rectangle(x+(sprite_width/2), y-(sprite_height/4),
-							   x+sprite_width, y+(sprite_height/4),
-							   obj_interact, false, true)
-	}else if(sprite_index == spr_player_horizontalWalk and image_xscale == -1){		//left
+	if(sprite_index == spr_player_walk_side1 and image_xscale == 1){		//right
 		objectInteract = collision_rectangle(x-abs(sprite_width/2), y-(sprite_height/4),
 							   x-abs(sprite_width), y+(sprite_height/4),
 							   obj_interact, false, true)
-	}else if(sprite_index == spr_player_verticalWalk_up){		//up
+	}else if(sprite_index == spr_player_walk_side1 and image_xscale == -1){		//left
+		objectInteract = collision_rectangle(x+abs(sprite_width/2), y-(sprite_height/4),
+							   x+abs(sprite_width), y+(sprite_height/4),
+							   obj_interact, false, true)
+	}else if(sprite_index == spr_player_walk_up){		//up
 		objectInteract = collision_rectangle(x-(sprite_width/4), y-(sprite_height/2),
 							   x+(sprite_width/4), y-sprite_height,
 							   obj_interact, false, true)
@@ -93,7 +94,7 @@ if(!global.inDialogue and keyboard_check_pressed(vk_space)){
 	}
 }
 else if(keyboard_check(vk_nokey)){
-	if(image_index == 1){
+	if(image_index <= 1){
 		image_speed = 0
 		image_index = 0
 	}
