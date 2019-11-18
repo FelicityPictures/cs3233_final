@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "342849b8-c6ac-4586-87ad-48227933d0b9",
+            "Value": {
+                "id": "cb7d5402-2c5a-46ed-8db3-35a6b6c717b7",
+                "resourcePath": "objects\\obj_rm01_door\\obj_rm01_door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "381d26e0-d810-4bbd-9210-4263c72b4da8",
             "Value": {
                 "id": "56207928-ea65-4d66-ad73-15426f09abd6",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "6bd48b23-d4f0-4f78-8e2c-181162812054",
+            "Value": {
+                "id": "a45c08d9-b3c1-4d95-99f7-04b0800d59b3",
+                "resourcePath": "objects\\obj_rm01_desk\\obj_rm01_desk.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6c607c0b-8e51-4c6d-9d15-292e0aa226c5",
             "Value": {
                 "id": "a07044c3-bd8e-40b1-8bd7-480e2951be89",
@@ -279,6 +295,22 @@
             }
         },
         {
+            "Key": "abf71fd4-8cfa-4dfa-9a09-25d99ceecdda",
+            "Value": {
+                "id": "ec4e24af-4999-4043-8e8b-897c5c48c57b",
+                "resourcePath": "objects\\obj_rm01_rug\\obj_rm01_rug.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b2e2482a-6716-492a-b46a-b7c04873e5c3",
+            "Value": {
+                "id": "743f01bc-a797-416e-9a17-1340dc08b6e9",
+                "resourcePath": "objects\\obj_rm01_wardrobe\\obj_rm01_wardrobe.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b5f9b0a4-8467-4d42-9f52-fa0605a96662",
             "Value": {
                 "id": "863a188c-b16d-4fcb-bdcf-0a985e4bc7ab",
@@ -311,6 +343,14 @@
             }
         },
         {
+            "Key": "c963f8cb-6ff6-457e-a397-c1a8de516327",
+            "Value": {
+                "id": "0d83f2d0-3b54-4b84-aae9-df7213b4ab57",
+                "resourcePath": "views\\c963f8cb-6ff6-457e-a397-c1a8de516327.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "e563d3d0-f5b6-4935-95da-ff4b14da11f5",
@@ -324,6 +364,14 @@
                 "id": "7fe54881-f5e4-4fd9-b6b5-f55d273ed93f",
                 "resourcePath": "views\\cfa80675-967b-4985-8c02-6d90dc8b9678.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d076577d-569b-4b1e-8690-6fcf95902b44",
+            "Value": {
+                "id": "fc412149-60a9-4f8f-a30e-08209cb5561d",
+                "resourcePath": "rooms\\rm01\\rm01.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -372,6 +420,14 @@
                 "id": "e5dae2c1-ba43-49ac-b7d8-97b55ea1a59d",
                 "resourcePath": "views\\e01b6a3b-9a10-405d-a38c-2d3cf0d76605.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e1c5ad2f-3327-4b5a-b508-99afec6c64de",
+            "Value": {
+                "id": "e9d697c1-1d61-4b04-82a5-76331fad37ba",
+                "resourcePath": "objects\\obj_rm01_pframe\\obj_rm01_pframe.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -436,6 +492,22 @@
                 "id": "d788bc97-d3f4-428a-abb6-7375cedba791",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f59331fd-ad13-4cd7-a5c9-3473729552c2",
+            "Value": {
+                "id": "6652c397-0ca3-4399-856a-5648ead8be40",
+                "resourcePath": "objects\\obj_rm01_mirror\\obj_rm01_mirror.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f785650c-a2f3-4406-bfed-7ae1f1941310",
+            "Value": {
+                "id": "e3ba99e2-fe23-4f4c-b2bb-0413ce7c2f27",
+                "resourcePath": "objects\\obj_rm01_bed\\obj_rm01_bed.yy",
+                "resourceType": "GMObject"
             }
         },
         {
