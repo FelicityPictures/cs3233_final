@@ -1,2 +1,3 @@
-dialogueSequence[0] = "Hello! How are you today? Lovely morning we're having. I love this fall weather and everything it has to offer this world."
-dialogueSequence[1] = "This is the second text in my dialogue. Press space if you want me to stop talking."
+name = "default"
+dialogueSequence[0] = ["Hello! How are you today? Lovely morning we're having. I love this fall weather and everything it has to offer this world."]
+dialogueSequence[1] = ["other"]

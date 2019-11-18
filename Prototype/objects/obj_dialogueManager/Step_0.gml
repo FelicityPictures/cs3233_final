@@ -1,10 +1,7 @@
 if(global.inDialogue){
 	if(keyboard_check_pressed(vk_space) && currentProgress + 1 <= array_length_1d(narrationSequence)){
-		// if first choice
-		currentProgress = (currentProgress * 2) + 1
-	
-		//if second choice
-		// currentProgress = (currentProgress * 2) + 2
+		// uses array to branch
+		currentProgress = (currentProgress * 2) + choice
 	}
 }
 
@@ -15,4 +12,20 @@ if(currentProgress >= 0 && currentProgress <= array_length_1d(narrationSequence)
 	narrationSequence[0] = 0
 	currentProgress = -100
 	global.inDialogue = false
+}
+
+if(global.inDialogue && array_length_1d(narrationSequence[currentProgress]) > 1){
+	if(keyboard_check_pressed(vk_down)){
+		choice++
+		if(choice > 2){
+			choice = 1
+		}
+	}else if(global.inDialogue && keyboard_check_pressed(vk_up)){
+		choice--
+		if(choice < 1){
+			choice = 2
+		}
+	}
+}else{
+	choice = 1
 }

@@ -87,13 +87,14 @@ if(!global.inDialogue and keyboard_check_pressed(vk_space)){
 			dialogueManager.narrationSequence[i] = objectInteract.dialogueSequence[i]
 		}
 		dialogueManager.currentProgress = 0
+		if(is_undefined(ds_map_find_value(dialogueManager.itemInteraction, objectInteract.name))){
+			ds_map_add(dialogueManager.itemInteraction, objectInteract.name, true)
+		}
 	}
 }
-/*
 else if(keyboard_check(vk_nokey)){
 	if(image_index == 1){
 		image_speed = 0
 		image_index = 0
 	}
 }
-*/
