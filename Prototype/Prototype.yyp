@@ -183,14 +183,6 @@
             }
         },
         {
-            "Key": "48d0f89a-e5aa-4c23-b5dc-920d0c943dbe",
-            "Value": {
-                "id": "439717a1-65d2-4f5d-afe5-fae3cd9c0b37",
-                "resourcePath": "sprites\\spr_rm01_desk_wallet\\spr_rm01_desk_wallet.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4a479819-d37e-4c3e-8f2e-fb69ac99fa05",
             "Value": {
                 "id": "5bbb746c-63cb-44c5-92ae-4c1fcbdd0a8a",
@@ -251,6 +243,14 @@
             "Value": {
                 "id": "be43df93-66ab-49bc-b5a6-cf3501eaf185",
                 "resourcePath": "sprites\\spr_rm01_desk\\spr_rm01_desk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "672606c8-4156-4914-bde2-56efe1573faf",
+            "Value": {
+                "id": "ebe333b2-a389-4544-b793-b47c667c44b6",
+                "resourcePath": "sprites\\spr_rm01_desk_wallet\\spr_rm01_desk_wallet.yy",
                 "resourceType": "GMSprite"
             }
         },
