@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "268b717a-f489-4102-b762-ab1358e9b149",
+            "Value": {
+                "id": "3771ebbe-c98a-4a6f-a883-1ecb7634691c",
+                "resourcePath": "objects\\obj_static_desk\\obj_static_desk.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "27b3c28b-6d77-4096-bcd7-ffc52227dd6a",
             "Value": {
                 "id": "7bbba874-73ae-43cf-af8e-f8bb4f2055c3",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "48d0f89a-e5aa-4c23-b5dc-920d0c943dbe",
+            "Value": {
+                "id": "439717a1-65d2-4f5d-afe5-fae3cd9c0b37",
+                "resourcePath": "sprites\\spr_rm01_desk_wallet\\spr_rm01_desk_wallet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4a479819-d37e-4c3e-8f2e-fb69ac99fa05",
             "Value": {
                 "id": "5bbb746c-63cb-44c5-92ae-4c1fcbdd0a8a",
@@ -231,6 +247,14 @@
             }
         },
         {
+            "Key": "5fff2eb9-6b01-4d53-8b12-6e79eee592c1",
+            "Value": {
+                "id": "be43df93-66ab-49bc-b5a6-cf3501eaf185",
+                "resourcePath": "sprites\\spr_rm01_desk\\spr_rm01_desk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6c607c0b-8e51-4c6d-9d15-292e0aa226c5",
             "Value": {
                 "id": "a07044c3-bd8e-40b1-8bd7-480e2951be89",
@@ -268,6 +292,14 @@
                 "id": "ee303837-443d-46f8-a5d6-b2b6f34d5aab",
                 "resourcePath": "scripts\\drawDialogueBox\\drawDialogueBox.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "93db1758-7458-4a23-8cbb-d95e04ec9254",
+            "Value": {
+                "id": "105f72b3-21f8-4820-89f7-48d9b0d71211",
+                "resourcePath": "objects\\obj_interact_wallet\\obj_interact_wallet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -476,14 +508,6 @@
                 "id": "ccc37efb-3679-4fc4-b03c-0ab85d8f88a9",
                 "resourcePath": "views\\ee3cfe39-738c-4b17-87f8-26d15a465315.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ef29f06a-5298-4a00-b861-103270e3b97a",
-            "Value": {
-                "id": "d3dca330-27c2-47c1-b7b7-4c083b6f2856",
-                "resourcePath": "sprites\\spr_rm01_desk\\spr_rm01_desk.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
