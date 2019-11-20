@@ -7,7 +7,7 @@ dialogueSequence[1] = ["I hate it.",
 					   
 dialogueSequence[3] = ["Oh. Okay... (this is her favorite dish...)"]
 
-dialogueSequence[4] = ["I’m glad to hear. It’s your favorite food after all."]
+dialogueSequence[4] = ["I'm glad to hear. It's your favorite food after all."]
 dialogueManager = instance_find(obj_dialogueManager, 0)
 dialogueManager.narrationSequence = 0
 for(i = 0; i < array_length_1d(dialogueSequence); i++){
