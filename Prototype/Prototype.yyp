@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "8e519b59-9b06-4741-b9e5-74b7501090f2",
+            "Value": {
+                "id": "7cb909d4-5c41-46d9-9a75-729115157f54",
+                "resourcePath": "sprites\\spr_husband_walk_up\\spr_husband_walk_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8efc6e37-3604-4ab5-bf27-11605a9e592c",
             "Value": {
                 "id": "ee303837-443d-46f8-a5d6-b2b6f34d5aab",
@@ -423,6 +431,14 @@
             }
         },
         {
+            "Key": "9ce78281-27b0-449b-a96e-70529d9fd37b",
+            "Value": {
+                "id": "fad71797-6a8f-4b14-97d8-86e4b6a89e4d",
+                "resourcePath": "sprites\\spr_husband_walk_down1\\spr_husband_walk_down1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a06f1d35-25d8-4af9-b0ee-90a192969158",
             "Value": {
                 "id": "7a6b4b64-42dc-4bc5-bfee-2ddd2989c619",
@@ -436,6 +452,14 @@
                 "id": "1f144e9b-587b-4d28-a50e-36bb730d6e2c",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a9c21b4e-d4bb-41ba-8e21-ac53195a1f08",
+            "Value": {
+                "id": "5d9bcb72-a4be-45d6-91ec-2d648c62d43e",
+                "resourcePath": "views\\a9c21b4e-d4bb-41ba-8e21-ac53195a1f08.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -595,6 +619,14 @@
             "Value": {
                 "id": "c8a7896b-e7bf-4ec9-852c-d7289b567c4c",
                 "resourcePath": "sprites\\spr_rm01_mirror\\spr_rm01_mirror.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d9084c15-300c-40c6-a01e-10a0c17d0b52",
+            "Value": {
+                "id": "4df67a42-0860-407f-a3d3-c6b5ad6d38cc",
+                "resourcePath": "sprites\\spr_husband_walk_side\\spr_husband_walk_side.yy",
                 "resourceType": "GMSprite"
             }
         },
