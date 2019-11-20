@@ -4,11 +4,20 @@
     "mvc": "1.0",
     "name": "obj_interact_wallet",
     "eventList": [
-        
+        {
+            "id": "1e96f136-67a2-4316-94df-1b3229e0dc71",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "93db1758-7458-4a23-8cbb-d95e04ec9254"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "b5f9b0a4-8467-4d42-9f52-fa0605a96662",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

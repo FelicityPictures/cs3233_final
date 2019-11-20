@@ -4,11 +4,20 @@
     "mvc": "1.0",
     "name": "obj_interact_window",
     "eventList": [
-        
+        {
+            "id": "72b0d749-29c1-46a6-9bee-00fddd6591d5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "dcb2a4ca-2985-4a80-b579-b6a930c8473c"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "b5f9b0a4-8467-4d42-9f52-fa0605a96662",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
