@@ -80,8 +80,7 @@ if(!global.inDialogue and keyboard_check_pressed(vk_space)){
 							   x+(sprite_width/4), y+sprite_height,
 							   obj_interact, false, true)
 	}
-	if(objectInteract != noone){
-		//FIGURE THIS OUT
+	if(objectInteract != noone && objectInteract.name != ""){
 		dialogueManager = instance_find(obj_dialogueManager, 0)
 		dialogueManager.narrationSequence = 0
 		for(i = 0; i < array_length_1d(objectInteract.dialogueSequence); i++){

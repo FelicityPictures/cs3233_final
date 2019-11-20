@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0c941ec4-f1eb-49d2-9831-8d8f5aba2203",
+            "Value": {
+                "id": "910dacc2-4a9b-464d-a97c-6fa53f0564d8",
+                "resourcePath": "rooms\\rm_start\\rm_start.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0cf8d468-7b99-4621-85f0-b619cb0c0f2d",
             "Value": {
                 "id": "cbeed61a-24cb-4dc0-8c44-757aa211f10a",
@@ -84,6 +92,14 @@
                 "id": "5c44301b-0a94-4e86-a8c2-f06461435cc1",
                 "resourcePath": "sprites\\spr_player_walk_side1\\spr_player_walk_side1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "191dc746-1c04-4547-a16a-721dc8f8b56f",
+            "Value": {
+                "id": "b13eb7a2-2aea-4e20-9747-4a775a3c8a0c",
+                "resourcePath": "objects\\obj_dialogueManager_rm_kitchen\\obj_dialogueManager_rm_kitchen.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -196,6 +212,22 @@
                 "id": "f7c2e7b8-ba12-4a6d-b33a-2528959e1218",
                 "resourcePath": "sprites\\spr_player_walk_up\\spr_player_walk_up.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3c8129a6-8053-45a8-8127-79e23039a51a",
+            "Value": {
+                "id": "6c940343-504a-4e17-b7f6-83dae519b127",
+                "resourcePath": "objects\\obj_husband_bedroomTrigger\\obj_husband_bedroomTrigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3ecb76e6-694e-4eb5-8f39-567efd7ff94a",
+            "Value": {
+                "id": "34d9306b-9ce3-4ae7-bdf7-ad63a692f70a",
+                "resourcePath": "objects\\obj_husband_kitchen\\obj_husband_kitchen.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -375,6 +407,14 @@
             }
         },
         {
+            "Key": "93e8e255-c018-4dc8-9c8a-8b85d2fdf8ae",
+            "Value": {
+                "id": "2ff8b079-7dcf-4a31-a028-2c0d3e7eba49",
+                "resourcePath": "rooms\\rm_playAgain\\rm_playAgain.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9b952d85-9b81-41a7-9910-0489966de9dc",
             "Value": {
                 "id": "6a69c313-5db8-4786-9c8c-b61fd2a81761",
@@ -532,6 +572,14 @@
                 "id": "1465a8b1-17e6-40aa-8b19-6d4191887817",
                 "resourcePath": "views\\d3544dcd-394a-4da0-873b-e109fb452500.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d36db68c-4380-4ade-b825-4338f5b60c73",
+            "Value": {
+                "id": "7defc761-c00d-4601-a904-04f786469adb",
+                "resourcePath": "sprites\\spr_husband_walk_down\\spr_husband_walk_down.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
