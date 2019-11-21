@@ -15,6 +15,9 @@ padding = 20
 boxHeight = (2*lineHeight)+(2*padding)
 outlineWeight = 5
 
+// set font
+draw_set_font(font_baskerville)
+
 // draw dialogue box
 draw_set_color(c_white)
 draw_rectangle(margin, room_height-margin-boxHeight-(2*outlineWeight), room_width-margin, room_height-margin, false)
