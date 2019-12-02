@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "47aee492-82ef-4821-b181-280574f81fa3",
+            "Value": {
+                "id": "bfc67daf-88da-4219-b8db-e426262e3cd2",
+                "resourcePath": "objects\\obj_dialogueManager_rm_lawfirm1\\obj_dialogueManager_rm_lawfirm1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a479819-d37e-4c3e-8f2e-fb69ac99fa05",
             "Value": {
                 "id": "5bbb746c-63cb-44c5-92ae-4c1fcbdd0a8a",
@@ -444,6 +452,14 @@
                 "id": "f1f46d28-4afa-4232-b90b-a6f5452eec9d",
                 "resourcePath": "views\\7387e2a8-a04c-49a4-9441-3465d7215236.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "74361ea4-1b3f-4c6b-a829-e20da91c1eb9",
+            "Value": {
+                "id": "e5dcbe90-142b-414b-8c15-7226edce5cbf",
+                "resourcePath": "objects\\obj_player_dressed\\obj_player_dressed.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -895,6 +911,14 @@
             }
         },
         {
+            "Key": "eae1e5ec-5d7d-4c4e-bef0-176154413f69",
+            "Value": {
+                "id": "6f05a222-4b1e-4c82-874d-030ec1aae74e",
+                "resourcePath": "objects\\obj_secretary\\obj_secretary.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "eb3c5079-92d7-432c-846f-a610f39b11e2",
             "Value": {
                 "id": "e46b3323-6b47-4460-84ab-9a08f100d77b",
@@ -932,6 +956,14 @@
                 "id": "d788bc97-d3f4-428a-abb6-7375cedba791",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4cf40c8-665d-4230-b3f9-210e38cab309",
+            "Value": {
+                "id": "edabb83b-eea6-4a22-aa07-65424f06a99a",
+                "resourcePath": "objects\\obj_client_father\\obj_client_father.yy",
+                "resourceType": "GMObject"
             }
         },
         {
