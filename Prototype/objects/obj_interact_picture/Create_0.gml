@@ -1,2 +1,2 @@
 name = "frame"
-dialogueSequence[0] = ["Guess these are your kids now..."]
+dialogueSequence[0] = ["Guess you're married now..."]
