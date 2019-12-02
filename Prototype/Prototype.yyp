@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-            
+
         ],
         "projectPath": "${base_project}"
     },
@@ -399,19 +399,11 @@
             }
         },
         {
-<<<<<<< HEAD
-            "Key": "620772ca-5a42-436e-b13d-ef00840e3c54",
-            "Value": {
-                "id": "bc3228f1-5147-408c-8571-f98bc7ea9c95",
-                "resourcePath": "views\\620772ca-5a42-436e-b13d-ef00840e3c54.yy",
-                "resourceType": "GMFolder"
-=======
             "Key": "65f82e14-e5b1-481b-811b-b7b949c62d1f",
             "Value": {
                 "id": "451e153a-1eef-4f9f-9c94-42012029cbcb",
                 "resourcePath": "objects\\obj_interact_degree\\obj_interact_degree.yy",
                 "resourceType": "GMObject"
->>>>>>> 56372bcc18657c99c9b8e97577c7c9fd3c8f727d
             }
         },
         {
