@@ -1,18 +1,18 @@
 {
-    "id": "3ecb76e6-694e-4eb5-8f39-567efd7ff94a",
+    "id": "84d53906-9b98-4b35-908f-bad36f99bfbd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_husband_kitchen1",
+    "name": "obj_client_bad",
     "eventList": [
         {
-            "id": "5eefb0b3-1303-4399-a7a3-97069b9f6c71",
+            "id": "64802610-f396-42b4-8bc7-5ab51933facc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "3ecb76e6-694e-4eb5-8f39-567efd7ff94a"
+            "m_owner": "84d53906-9b98-4b35-908f-bad36f99bfbd"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
