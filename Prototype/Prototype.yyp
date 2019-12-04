@@ -266,7 +266,7 @@
             "Key": "3ecb76e6-694e-4eb5-8f39-567efd7ff94a",
             "Value": {
                 "id": "34d9306b-9ce3-4ae7-bdf7-ad63a692f70a",
-                "resourcePath": "objects\\obj_husband_kitchen\\obj_husband_kitchen.yy",
+                "resourcePath": "objects\\obj_husband_kitchen1\\obj_husband_kitchen1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -772,6 +772,14 @@
                 "id": "b6f4ebff-761a-47b1-96d1-25f6b683fbb6",
                 "resourcePath": "sprites\\spr_rm_bedroom\\spr_rm_bedroom.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c1cf181f-0849-4d59-a0b1-397466ddb4a3",
+            "Value": {
+                "id": "ad169d85-ea7b-4192-864f-ecf79db7f35b",
+                "resourcePath": "objects\\obj_husband_kitchen2\\obj_husband_kitchen2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
