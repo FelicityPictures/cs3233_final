@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_interact_justice",
     "eventList": [
-        
+        {
+            "id": "b8fae3cb-c762-4d7d-bebe-6e13b2800360",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "fcd9f06f-492f-4333-83f8-de0d191702dc"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

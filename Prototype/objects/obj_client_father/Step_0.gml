@@ -1,15 +1,12 @@
 // entering room
-if(image_xscale == -1 && x < 710){
-	x += 5
-}else{
-	if(image_index <= 1){
+if(image_xscale == -1){
+	if(x < 710){
+		x += 5
+	}else if(image_index <= 1){
 		image_speed = 0
 		image_index = 0
 	}
-}
-
-// exiting room
-if(image_xscale == 1){
+}else if(image_xscale == 1){ // exiting room
 	if(x > -10){
 		x -= 5	
 	}else{
@@ -28,4 +25,7 @@ if(image_speed == 0 and !talked){
 		ds_map_add(dialogueManager.itemInteraction, name, true)
 	}
 	talked = true
+}else if(talked && !global.inDialogue){
+	image_xscale = 1
+	image_speed = 1
 }

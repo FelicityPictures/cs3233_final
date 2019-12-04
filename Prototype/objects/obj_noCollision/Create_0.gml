@@ -1,0 +1,2 @@
+name = ""
+dialogueSequence[0] = [""]

@@ -1,14 +1,23 @@
 {
-    "id": "54129c39-646a-4c82-9f04-30ae4678d8be",
+    "id": "64072aae-0680-48e6-9798-4c1db8c3ca57",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_static_chair_front",
+    "name": "obj_dialogueManager_rm_subway",
     "eventList": [
-        
+        {
+            "id": "df9cce2e-c464-40f6-819d-7553e5534a7e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "64072aae-0680-48e6-9798-4c1db8c3ca57"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "4f0747c4-1665-4a41-a02b-356438c76c26",
+    "parentObjectId": "5f9ccb4b-d364-42c7-9752-3774661137be",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "e43ac933-2101-4cda-8887-5448a304f1db",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

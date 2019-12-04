@@ -30,6 +30,8 @@ if(image_speed == 0 and !talked){
 	image_speed = 1
 	if(!sentInClient){
 		instance_create_depth(0, 0, -50, obj_client_father)
+		dialogueManager = instance_find(obj_dialogueManager, 0)
+		ds_map_add(dialogueManager.itemInteraction, "client_father", true)
 		sentInClient = true	
 	}
 }

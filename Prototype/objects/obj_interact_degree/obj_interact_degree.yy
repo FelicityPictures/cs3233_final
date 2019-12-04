@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_interact_degree",
     "eventList": [
-        
+        {
+            "id": "2ee04ad5-0ffb-46a5-98d6-db0ea723e7da",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "65f82e14-e5b1-481b-811b-b7b949c62d1f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
