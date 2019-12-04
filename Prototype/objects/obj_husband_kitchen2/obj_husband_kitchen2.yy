@@ -1,28 +1,28 @@
 {
-    "id": "3ecb76e6-694e-4eb5-8f39-567efd7ff94a",
+    "id": "c1cf181f-0849-4d59-a0b1-397466ddb4a3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_husband_kitchen",
+    "name": "obj_husband_kitchen2",
     "eventList": [
         {
-            "id": "5eefb0b3-1303-4399-a7a3-97069b9f6c71",
+            "id": "a035d742-e528-42be-bd29-b88e5f443d6f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "3ecb76e6-694e-4eb5-8f39-567efd7ff94a"
+            "m_owner": "c1cf181f-0849-4d59-a0b1-397466ddb4a3"
         },
         {
-            "id": "ec7306c6-da9e-4b89-9244-3d90cdb18f86",
+            "id": "5e35b6ec-ff30-4819-b27e-65a2ea260a39",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "3ecb76e6-694e-4eb5-8f39-567efd7ff94a"
+            "m_owner": "c1cf181f-0849-4d59-a0b1-397466ddb4a3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

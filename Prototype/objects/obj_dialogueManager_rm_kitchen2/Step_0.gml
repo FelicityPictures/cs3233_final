@@ -1,7 +1,7 @@
 event_inherited()
 
 if(!global.inDialogue){
-	if(!is_undefined(ds_map_find_value(itemInteraction, "husband"))){
+	if(instance_find(obj_husband_kitchen2, 0) == noone){
 		room_goto_next()
 	}
 }
