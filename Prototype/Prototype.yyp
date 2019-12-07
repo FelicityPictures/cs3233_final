@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1043d8fa-c277-4dc1-9e8f-30bdfc82d0bb",
+            "Value": {
+                "id": "257995d2-8622-43ad-8603-d3c55d35760f",
+                "resourcePath": "sprites\\spr_rm06_desk2\\spr_rm06_desk2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "11ea294a-8a01-4c6f-9ee5-05397dddcaa7",
             "Value": {
                 "id": "4c53020f-1c74-4669-9b0b-6c714a663f2c",
@@ -220,6 +228,14 @@
                 "id": "7bbba874-73ae-43cf-af8e-f8bb4f2055c3",
                 "resourcePath": "views\\27b3c28b-6d77-4096-bcd7-ffc52227dd6a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "28da2d64-d759-47ab-8847-1553319dbedf",
+            "Value": {
+                "id": "6583bdd9-c79e-4c24-b3b7-da82aa61d766",
+                "resourcePath": "sprites\\spr_rm06_phone\\spr_rm06_phone.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -460,14 +476,6 @@
                 "id": "f98fc555-9b5a-4a47-87f1-9ac1d2aed06d",
                 "resourcePath": "views\\54aa70c6-82fe-4d22-9824-2a6d25de4f6a.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "57e983ef-7a47-4da5-88e1-f00f0c9f5f15",
-            "Value": {
-                "id": "8d260c74-3e49-4767-a227-45567ef85571",
-                "resourcePath": "sprites\\spr_rm06_desk2\\spr_rm06_desk2.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1108,14 +1116,6 @@
                 "id": "5e579681-2f1d-4aa6-8b02-b5744ca4c2da",
                 "resourcePath": "objects\\obj_interact_window\\obj_interact_window.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "ddc73894-6473-4eba-b892-d24a3ce356db",
-            "Value": {
-                "id": "690aaae1-e99a-4120-963f-b4c21439aa84",
-                "resourcePath": "sprites\\spr_rm06_phone\\spr_rm06_phone.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
