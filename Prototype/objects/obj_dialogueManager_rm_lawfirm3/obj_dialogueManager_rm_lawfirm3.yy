@@ -1,23 +1,33 @@
 {
-    "id": "3ecb76e6-694e-4eb5-8f39-567efd7ff94a",
+    "id": "08596228-9fb1-4a94-bc03-8b5542c77065",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_husband_kitchen1",
+    "name": "obj_dialogueManager_rm_lawfirm3",
     "eventList": [
         {
-            "id": "5eefb0b3-1303-4399-a7a3-97069b9f6c71",
+            "id": "dd08915b-47db-4c90-8ae9-7784eedc2401",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "3ecb76e6-694e-4eb5-8f39-567efd7ff94a"
+            "m_owner": "08596228-9fb1-4a94-bc03-8b5542c77065"
+        },
+        {
+            "id": "8014567a-7f1b-45b7-9b23-ff75c485183a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "08596228-9fb1-4a94-bc03-8b5542c77065"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "b5f9b0a4-8467-4d42-9f52-fa0605a96662",
+    "parentObjectId": "5f9ccb4b-d364-42c7-9752-3774661137be",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "d36db68c-4380-4ade-b825-4338f5b60c73",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

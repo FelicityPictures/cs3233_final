@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "08596228-9fb1-4a94-bc03-8b5542c77065",
+            "Value": {
+                "id": "a0186a87-1f65-4028-a4a3-63c6a199d77c",
+                "resourcePath": "objects\\obj_dialogueManager_rm_lawfirm3\\obj_dialogueManager_rm_lawfirm3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b345e2b-1c6d-4ea5-bca2-d4b9d84ef7d2",
             "Value": {
                 "id": "f119aea7-2438-4c23-bacf-b6ced535ac80",
@@ -351,6 +359,14 @@
             }
         },
         {
+            "Key": "47e82f26-8010-434b-a6b0-6c59d4851d92",
+            "Value": {
+                "id": "4b7e5fb5-8cae-4ef5-bbc0-c8597844fa78",
+                "resourcePath": "rooms\\rm_lawfirm3\\rm_lawfirm3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4a479819-d37e-4c3e-8f2e-fb69ac99fa05",
             "Value": {
                 "id": "5bbb746c-63cb-44c5-92ae-4c1fcbdd0a8a",
@@ -580,6 +596,14 @@
                 "id": "6b8c24a2-c2e6-43f4-9999-f72af2cf32e8",
                 "resourcePath": "sprites\\spr_player_pencilskirt_front\\spr_player_pencilskirt_front.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "84d53906-9b98-4b35-908f-bad36f99bfbd",
+            "Value": {
+                "id": "35045dea-05e6-4a03-86b3-d24f9beca625",
+                "resourcePath": "objects\\obj_client_bad\\obj_client_bad.yy",
+                "resourceType": "GMObject"
             }
         },
         {
