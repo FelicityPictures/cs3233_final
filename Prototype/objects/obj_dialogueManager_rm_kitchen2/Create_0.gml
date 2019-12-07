@@ -8,5 +8,6 @@ narrationSequence[7] = ["Niagara Falls. I think the kids will enjoy it.", "The H
 narrationSequence[15] = ["Okay. Niagara Falls it is. I'll buy the tour tickets tomorrow. I have some work to do so you go to bed before me. Good night."]
 narrationSequence[16] = ["Alright. The Hamptons. I'll book a place to stay tomorrow. I have some work to do so you go to bed before me. Good night."]
 currentProgress = 0
+currentInteraction = "vacation"
 
 itemInteraction = ds_map_create()

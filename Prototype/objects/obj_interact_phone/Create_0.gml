@@ -1,2 +1,2 @@
 name = "phone"
-dialogueSequence[0] = ["Do this work"]
+dialogueSequence[0] = ["... Thank you for your order. You can pick it up in twenty minutes."]

@@ -1,9 +1,9 @@
 if(global.inDialogue){
 	if(keyboard_check_pressed(vk_space) && currentProgress + 1 <= array_length_1d(narrationSequence)){
 		// uses array to branch
-		if(currentInteraction == "ordering dinner" && currentProgress == 1){
-			ds_map_add(global.choices, "dinner", choice)
-			newChoice = instance_create_depth(0, 300, -100, obj_choiceCreation)
+		if(currentInteraction == "wardrobe" && currentProgress == 0){
+			ds_map_add(global.choices, "clothingChoice", choice)
+			newChoice = instance_create_depth(0, 200, -100, obj_choiceCreation)
 			newChoice.choiceNumber = choice
 			c = choice - 1
 			newChoice.interaction = (narrationSequence[currentProgress])
@@ -40,7 +40,7 @@ if(global.inDialogue && array_length_1d(narrationSequence[currentProgress]) > 1)
 }
 
 if(!global.inDialogue){
-	if(!is_undefined(ds_map_find_value(itemInteraction, "phone"))){
+	if(!is_undefined(ds_map_find_value(itemInteraction, "wardrobe"))){
 		room_goto_next()
 	}
 }

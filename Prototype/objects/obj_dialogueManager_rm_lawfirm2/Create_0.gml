@@ -6,5 +6,6 @@ narrationSequence[1] = ["Fish and chips. Treat yo' self.",
 narrationSequence[3] = ["I should call ahead to place the order. Less wait time."]
 narrationSequence[4] = ["I should call ahead to place the order. Less wait time."]
 currentProgress = 0
+currentInteraction = "ordering dinner"
 
 itemInteraction = ds_map_create()
