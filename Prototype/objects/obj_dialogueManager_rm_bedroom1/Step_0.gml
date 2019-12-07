@@ -11,6 +11,6 @@ if(!global.inDialogue){
 		ds_map_clear(itemInteraction)
 		instance_create_depth(288, 96, -100, obj_husband_bedroomTrigger)
 	}if(!is_undefined(ds_map_find_value(itemInteraction, "husband"))){
-		room_goto(rm_kitchen)
+		room_goto_next()
 	}
 }

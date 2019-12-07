@@ -1,4 +1,4 @@
-x = 288
+x = 340
 y = 96
 
 talked = false

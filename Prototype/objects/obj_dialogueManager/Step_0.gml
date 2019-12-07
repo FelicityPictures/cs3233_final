@@ -11,6 +11,7 @@ if(currentProgress >= 0 && currentProgress <= array_length_1d(narrationSequence)
 	narrationSequence = 0
 	narrationSequence[0] = [0]
 	currentProgress = -100
+	currentInteraction = ""
 	global.inDialogue = false
 }
 

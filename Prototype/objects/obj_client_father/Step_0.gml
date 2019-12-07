@@ -21,6 +21,7 @@ if(image_speed == 0 and !talked){
 		dialogueManager.narrationSequence[i] = dialogueSequence[i]
 	}
 	dialogueManager.currentProgress = 0
+	dialogueManager.currentInteraction = name
 	if(is_undefined(ds_map_find_value(dialogueManager.itemInteraction, name))){
 		ds_map_add(dialogueManager.itemInteraction, name, true)
 	}
