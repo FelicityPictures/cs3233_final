@@ -15,7 +15,8 @@ if(!global.inDialogue){
 		sprite_index = spr_player_walk_side1
 		image_xscale = -1
 		image_speed = 1
-	}else if(keyboard_check(vk_left)){
+	}
+	else if(keyboard_check(vk_left)){
 		x -= velocity
 		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y+(sprite_height/4),
 							   x+(sprite_width/2), y+(sprite_height/2),
@@ -30,7 +31,8 @@ if(!global.inDialogue){
 		sprite_index = spr_player_walk_side1
 		image_xscale = 1
 		image_speed = 1
-	}else if(keyboard_check(vk_up)){
+	}
+	else if(keyboard_check(vk_up)){
 		y -= velocity
 		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y+(sprite_height/4),
 							   x+(sprite_width/2), y+(sprite_height/2),
@@ -44,7 +46,8 @@ if(!global.inDialogue){
 		}
 		sprite_index = spr_player_walk_up
 		image_speed = 1
-	}else if(keyboard_check(vk_down)){
+	}
+	else if(keyboard_check(vk_down)){
 		y += velocity
 		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y+(sprite_height/4),
 							   x+(sprite_width/2), y+(sprite_height/2),
