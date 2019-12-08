@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "0ad6b10f-d80b-4331-8aeb-b74829c1059c",
+            "Value": {
+                "id": "27cee41e-4379-4e77-98a1-6d92be86781b",
+                "resourcePath": "objects\\obj_angel_badEnding\\obj_angel_badEnding.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b24e5e7-c6a2-47c6-9726-939ed51f9f2e",
             "Value": {
                 "id": "6ce313d1-da85-43aa-b597-4c25eb70af70",
@@ -220,6 +228,14 @@
                 "id": "95b1a831-fc20-47f0-a6ae-43ea17ec4a4a",
                 "resourcePath": "sprites\\spr_rm05_exit\\spr_rm05_exit.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "233fffb9-1e56-407c-9f9b-f5204f3e89bd",
+            "Value": {
+                "id": "96ea185c-b006-4ee5-98a3-319ea82c4acd",
+                "resourcePath": "objects\\obj_angel_goodEnding\\obj_angel_goodEnding.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -583,6 +599,14 @@
             }
         },
         {
+            "Key": "5dad6425-d10b-4ba3-a484-95a17fcb2d8d",
+            "Value": {
+                "id": "47af25f8-f8f3-4ca2-8c5b-30c876d5a8e9",
+                "resourcePath": "rooms\\rm_bedroom_final\\rm_bedroom_final.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5f9ccb4b-d364-42c7-9752-3774661137be",
             "Value": {
                 "id": "3f74470e-a651-4497-9fd4-8d82dfdbabd3",
@@ -623,6 +647,14 @@
             }
         },
         {
+            "Key": "67023113-4137-49e7-83d2-987ec5ef1b59",
+            "Value": {
+                "id": "5ea17394-4e59-44e7-b16c-2eecd66bc008",
+                "resourcePath": "objects\\obj_beggar\\obj_beggar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "672606c8-4156-4914-bde2-56efe1573faf",
             "Value": {
                 "id": "ebe333b2-a389-4544-b793-b47c667c44b6",
@@ -652,6 +684,14 @@
                 "id": "f7485ffb-3eba-4c90-bd88-249cfa36034a",
                 "resourcePath": "views\\6c794a74-7366-497b-a3ed-ff256f3b2871.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6ddc7602-dc24-460b-970c-555ec11f32f4",
+            "Value": {
+                "id": "787c57e5-c1e7-4331-ac1a-9d50813c36be",
+                "resourcePath": "scripts\\calculateScore\\calculateScore.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -708,6 +748,14 @@
                 "id": "879fd412-1e98-479d-b768-535f5e8cc098",
                 "resourcePath": "sprites\\spr_rm05_topwall2\\spr_rm05_topwall2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "82081767-316c-4020-90ea-def90da64c0b",
+            "Value": {
+                "id": "45998ee3-d4b7-4f93-a522-cf60dbbe4b40",
+                "resourcePath": "objects\\obj_dialogueManager_rm_jailFInal\\obj_dialogueManager_rm_jailFInal.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -860,6 +908,14 @@
                 "id": "5732eac9-cc72-4717-8242-3ccb1c444732",
                 "resourcePath": "sprites\\spr_subwayguy_left\\spr_subwayguy_left.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a37a2566-485b-4372-ac5f-287dda754cb7",
+            "Value": {
+                "id": "0b734c7f-782b-429a-986f-1a7f7787bad5",
+                "resourcePath": "objects\\obj_dialogueManager_rm_bedroomFinal\\obj_dialogueManager_rm_bedroomFinal.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1018,7 +1074,7 @@
             "Key": "b96f2596-91fb-42b4-bd72-00e4f80d017b",
             "Value": {
                 "id": "65bebc16-ae43-46dc-847f-4c913d7eb32e",
-                "resourcePath": "objects\\obj_interact_swipe\\obj_interact_swipe.yy",
+                "resourcePath": "objects\\obj_swipe\\obj_swipe.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1457,7 +1513,8 @@
     ],
     "script_order": [
         "de7bdc92-fc26-4dc6-9ff5-5de03e17fa4b",
-        "8efc6e37-3604-4ab5-bf27-11605a9e592c"
+        "8efc6e37-3604-4ab5-bf27-11605a9e592c",
+        "6ddc7602-dc24-460b-970c-555ec11f32f4"
     ],
     "tutorial": ""
 }

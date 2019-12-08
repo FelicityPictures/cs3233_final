@@ -1,4 +1,4 @@
-x = -10
+x = 200
 y = 400
 image_xscale = -1
 image_speed = 1

@@ -11,7 +11,9 @@
         "47aee492-82ef-4821-b181-280574f81fa3",
         "29e3b080-1cde-4669-8499-4d4e898631a5",
         "b87e16e0-1944-44eb-9cc3-3bcca5282609",
-        "08596228-9fb1-4a94-bc03-8b5542c77065"
+        "08596228-9fb1-4a94-bc03-8b5542c77065",
+        "a37a2566-485b-4372-ac5f-287dda754cb7",
+        "82081767-316c-4020-90ea-def90da64c0b"
     ],
     "filterType": "GMObject",
     "folderName": "dialogueManagers",

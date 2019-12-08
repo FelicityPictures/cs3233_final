@@ -7,7 +7,7 @@ if(image_xscale == -1){
 		image_index = 0
 	}
 }else if(image_xscale == 1){ // exiting room
-	if(x > -10){
+	if(x > 200){
 		x -= 5	
 	}else{
 		instance_destroy()
