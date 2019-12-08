@@ -655,14 +655,6 @@
             }
         },
         {
-            "Key": "67023113-4137-49e7-83d2-987ec5ef1b59",
-            "Value": {
-                "id": "5ea17394-4e59-44e7-b16c-2eecd66bc008",
-                "resourcePath": "objects\\obj_beggar\\obj_beggar.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "672606c8-4156-4914-bde2-56efe1573faf",
             "Value": {
                 "id": "ebe333b2-a389-4544-b793-b47c667c44b6",
