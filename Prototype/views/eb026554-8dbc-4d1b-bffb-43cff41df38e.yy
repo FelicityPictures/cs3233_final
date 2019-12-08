@@ -9,7 +9,7 @@
         "47e385be-953c-4de2-9699-1a35c61eb6e7"
     ],
     "filterType": "GMSprite",
-    "folderName": "Bad_Guy",
+    "folderName": "Bad_Client",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
