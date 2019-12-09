@@ -8,8 +8,8 @@ else if (x < 0 + sprite_width*3){
 if (y >= room_height - sprite_height*1.3){
 		y = room_height - sprite_height*1.3
 }
-else if (y < sprite_height){
-		y = sprite_height
+else if (y < sprite_height*2){
+		y = sprite_height*2
 }
 if(!global.inDialogue){
 	if(keyboard_check(vk_right)){
