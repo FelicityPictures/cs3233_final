@@ -1,4 +1,18 @@
 // movement only possible in dialogue
+if (x >= room_width - abs(sprite_width * 3)){
+		x = room_width - abs(sprite_width * 3)
+	}
+	else if (x < 0 + sprite_width*3){
+		x = sprite_width*3
+	}
+	
+	if (y >= room_height - sprite_height*1.3){
+		y = room_height - sprite_height*1.3
+	}
+	else if (y < sprite_height){
+		y = sprite_height
+}
+
 if(!global.inDialogue){
 	if(keyboard_check(vk_right)){
 		x += velocity
