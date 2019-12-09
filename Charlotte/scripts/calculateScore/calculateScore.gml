@@ -1,63 +1,63 @@
 score = 0
 
 clothes = ds_map_find_value(global.choices, "clothingChoice")
-clothesValue = 15
+global.clothesValue = 15
 swipe = ds_map_find_value(global.choices, "swipe")
-swipeValue = 10
+global.swipeValue = 10
 father = ds_map_find_value(global.choices, "small client")
-fatherValue = 75
+global.fatherValue = 75
 dinner = ds_map_find_value(global.choices, "ordering dinner")
-dinnerValue = 20
+global.dinnerValue = 20
 vacation = ds_map_find_value(global.choices, "vacation")
-vacationValue = 30
+global.vacationValue = 30
 jail = ds_map_find_value(global.choices, "big_choice")
-jailValue = 150
+global.jailValue = 150
 
 if(!is_undefined(clothes)){
 	if(clothes == 1){
-		score -= clothesValue
+		score -= global.clothesValue
 	}else{
-		score += clothesValue
+		score += global.clothesValue
 	}
 }
 if(!is_undefined(swipe)){
 	if(swipe == 1){
-		score += swipeValue
+		score += global.swipeValue
 	}else{
-		score -= swipeValue
+		score -= global.swipeValue
 	}
 }
 if(!is_undefined(dinner)){
 	if(dinner == 1){
-		score += dinnerValue
+		score += global.dinnerValue
 	}else{
-		score -= dinnerValue
+		score -= global.dinnerValue
 	}
 }
 if(!is_undefined(vacation)){
 	if(vacation == 1){
-		score += vacationValue
+		score += global.vacationValue
 	}else{
-		score -= vacationValue
+		score -= global.vacationValue
 	}
 }
 if(!is_undefined(jail)){
 	if(jail == 1){
-		score += jailValue
+		score += global.jailValue
 		if(!is_undefined(father)){
 			if(father == 1){
-				score -= fatherValue
+				score -= global.fatherValue
 			}else{
-				score += fatherValue
+				score += global.fatherValue
 			}
 		}
 	}else{
-		score -= jailValue
+		score -= global.jailValue
 		if(!is_undefined(father)){
 			if(father == 1){
-				score -= fatherValue
+				score -= global.fatherValue
 			}else{
-				score -= fatherValue*2
+				score -= global.fatherValue*2
 			}
 		}
 	}

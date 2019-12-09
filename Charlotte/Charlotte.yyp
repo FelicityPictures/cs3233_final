@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "3a5a85fa-451c-4383-b7bc-76c5806034c7",
+            "Value": {
+                "id": "e0bc58c8-d4c8-4887-a1e3-9e1a07d0768c",
+                "resourcePath": "sprites\\spr_rm_tryagain\\spr_rm_tryagain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3c486aa0-a9fb-414a-9621-d2f65a215dd1",
             "Value": {
                 "id": "f7c2e7b8-ba12-4a6d-b33a-2528959e1218",
@@ -692,6 +700,14 @@
                 "id": "052ebcbd-a6bf-4cd4-a7bf-52ee06a0e62c",
                 "resourcePath": "sprites\\spr_rm06_door2\\spr_rm06_door2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6b981aec-e1f2-4928-8ab3-b6ad71c10899",
+            "Value": {
+                "id": "5e700496-2b06-4882-aa6a-932f66cfe626",
+                "resourcePath": "objects\\obj_reportcard\\obj_reportcard.yy",
+                "resourceType": "GMObject"
             }
         },
         {
