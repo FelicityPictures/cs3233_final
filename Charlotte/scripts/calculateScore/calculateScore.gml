@@ -1,17 +1,11 @@
 score = 0
 
 clothes = ds_map_find_value(global.choices, "clothingChoice")
-global.clothesValue = 15
 swipe = ds_map_find_value(global.choices, "swipe")
-global.swipeValue = 10
 father = ds_map_find_value(global.choices, "small client")
-global.fatherValue = 75
 dinner = ds_map_find_value(global.choices, "ordering dinner")
-global.dinnerValue = 20
 vacation = ds_map_find_value(global.choices, "vacation")
-global.vacationValue = 30
 jail = ds_map_find_value(global.choices, "big_choice")
-global.jailValue = 150
 
 if(!is_undefined(clothes)){
 	if(clothes == 1){
