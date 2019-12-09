@@ -42,6 +42,9 @@ if(global.inDialogue && array_length_1d(narrationSequence[currentProgress]) > 1)
 if(!global.inDialogue){
 	playerExit = collision_rectangle(1000, 280, 1079, 444, obj_player_dressed, false, true)
 	if(playerExit != noone){
+		if ds_map_find_value(global.choices, "swipe") == undefined {
+			ds_map_add(global.choices, "swipe", 1)
+		}
 		room_goto_next()
 	}
 }

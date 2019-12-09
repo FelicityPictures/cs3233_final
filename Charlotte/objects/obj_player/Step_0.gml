@@ -1,17 +1,12 @@
-// movement only possible in dialogue
-if (x >= room_width - abs(sprite_width * 3)){
-		x = room_width - abs(sprite_width * 3)
-	}
-	else if (x < 0 + sprite_width*3){
-		x = sprite_width*3
-	}
-	
-	if (y >= room_height - sprite_height*1.3){
-		y = room_height - sprite_height*1.3
-	}
-	else if (y < sprite_height){
-		y = sprite_height
-}
+// sinfully hardcoded room boundaries
+boundary_up = 180
+boundary_left = 220
+boundary_right = 1060
+boundary_down = 605
+if (x < boundary_left) { x = boundary_left; }
+if (x > boundary_right) { x = boundary_right; }
+if (y < boundary_up) { y = boundary_up; }
+if (y > boundary_down) { y = boundary_down; }
 
 if(!global.inDialogue){
 	if(keyboard_check(vk_right)){
