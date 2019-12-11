@@ -1,7 +1,7 @@
 if(global.inDialogue){
 	if(keyboard_check_pressed(vk_space) && currentProgress + 1 <= array_length_1d(narrationSequence)){
 		// uses array to branch
-		if(currentInteraction == "ordering dinner" && currentProgress == 1){
+		if(currentInteraction == "dinner" && currentProgress == 1){
 			ds_map_add(global.choices, "dinner", choice)
 			newChoice = instance_create_depth(0, 350, -100, obj_choiceCreation)
 			newChoice.choiceNumber = choice

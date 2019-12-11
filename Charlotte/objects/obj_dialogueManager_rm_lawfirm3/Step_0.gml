@@ -67,7 +67,7 @@ if(!global.inDialogue){
 		if(ds_map_find_value(global.choices, "big_choice") == 1){
 			room_goto(rm_bedroom_final)
 		}else{
-			room_goto(rm_jail)
+			room_goto(rm_jail_final)
 		}
 	}
 }

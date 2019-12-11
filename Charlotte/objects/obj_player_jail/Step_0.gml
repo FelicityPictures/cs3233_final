@@ -16,7 +16,7 @@ if(!global.inDialogue){
 			}
 			x -= velocity
 		}
-		sprite_index = spr_player_pantsuit_left
+		sprite_index = spr_orange_left
 		image_xscale = -1
 		image_speed = 1
 	}else if(keyboard_check(vk_left)){
@@ -31,7 +31,7 @@ if(!global.inDialogue){
 			}
 			x += velocity
 		}
-		sprite_index = spr_player_pantsuit_left
+		sprite_index = spr_orange_left
 		image_xscale = 1
 		image_speed = 1
 	}else if(keyboard_check(vk_up)){
@@ -46,7 +46,7 @@ if(!global.inDialogue){
 			}
 			y += velocity
 		}
-		sprite_index = spr_player_pantsuit_back
+		sprite_index = spr_orange_back
 		image_speed = 1
 	}else if(keyboard_check(vk_down)){
 		y += velocity
@@ -60,22 +60,22 @@ if(!global.inDialogue){
 			}
 			y -= velocity
 		}
-		sprite_index = spr_player_pantsuit_front
+		sprite_index = spr_orange_front
 		image_speed = 1
 	}
 }
 
 // check interactions
 if(!global.inDialogue and keyboard_check_pressed(vk_space)){
-	if(sprite_index == spr_player_pantsuit_left and image_xscale == 1){		//right
+	if(sprite_index == spr_orange_left and image_xscale == 1){		//right
 		objectInteract = collision_rectangle(x-abs(sprite_width/2), y-(sprite_height/4),
 							   x-abs(sprite_width), y+(sprite_height/4),
 							   obj_interact, false, true)
-	}else if(sprite_index == spr_player_pantsuit_left and image_xscale == -1){		//left
+	}else if(sprite_index == spr_orange_left and image_xscale == -1){		//left
 		objectInteract = collision_rectangle(x+abs(sprite_width/2), y-(sprite_height/4),
 							   x+abs(sprite_width), y+(sprite_height/4),
 							   obj_interact, false, true)
-	}else if(sprite_index == spr_player_pantsuit_back){		//up
+	}else if(sprite_index == spr_orange_back){		//up
 		objectInteract = collision_rectangle(x-(sprite_width/4), y-(sprite_height/2),
 							   x+(sprite_width/4), y-sprite_height,
 							   obj_interact, false, true)

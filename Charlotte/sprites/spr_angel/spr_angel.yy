@@ -2,7 +2,7 @@
     "id": "0b24e5e7-c6a2-47c6-9726-939ed51f9f2e",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite69",
+    "name": "spr_angel",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -121,7 +121,7 @@
         }
     ],
     "origin": 4,
-    "originLocked": false,
+    "originLocked": true,
     "playbackSpeed": 5,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,

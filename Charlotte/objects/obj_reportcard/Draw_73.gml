@@ -8,7 +8,7 @@ headerls2 = 20
 c1 = ds_map_find_value(global.choices, "clothingChoice")
 c2 = ds_map_find_value(global.choices, "swipe")
 c3 = ds_map_find_value(global.choices, "small client")
-c4 = ds_map_find_value(global.choices, "ordering dinner")
+c4 = ds_map_find_value(global.choices, "dinner")
 c5 = ds_map_find_value(global.choices, "vacation")
 c6 = ds_map_find_value(global.choices, "big_choice")
 
