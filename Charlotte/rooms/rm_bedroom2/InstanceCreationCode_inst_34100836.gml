@@ -1,0 +1,1 @@
+dialogueSequence[0] = ["Yep, that's still me in the mirror."]

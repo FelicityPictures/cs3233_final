@@ -1,0 +1,1 @@
+dialogueSequence[0] = ["Yep, still my kids."]

@@ -1,0 +1,1 @@
+dialogueSequence[0] = ["Now's not the time to sleep more, you have to go to work."]

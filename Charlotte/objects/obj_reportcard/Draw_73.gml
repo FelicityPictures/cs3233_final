@@ -92,10 +92,16 @@ if pagenumber == 1 { // CLOTHES
 		draw_text_ext_transformed(x, y+headersp3, "(+" + string(global.jailValue) + " points)", headerls2, 440, 1.75, 1.75, 0);
 	}
 } else {
-	draw_text_ext_transformed(x, y+headersp1, "Your final score was " + string(global.afterlifeScore) + ".", headerls1, 400, 2, 2, 0);
+	if global.afterlifeScore >= 100 {
+		draw_text_ext_transformed(x, y+headersp1, "Your final score was " + string(global.afterlifeScore) + ".", headerls1, 400, 2, 2, 0);
+		draw_text_ext_transformed(x, y+headersp2, "Well done, it looks like you could prove your good will after all. It was hard to do the right thing, wasn't it?", headerls2, 480, 1.5, 1.5, 0);
+		draw_text_ext_transformed(x, y+headersp3, "You redeemed yourself and went to Heaven.", headerls2, 440, 1.75, 1.75, 0);
+	} else {
+		draw_text_ext_transformed(x, y+headersp1, "Your final score was " + string(global.afterlifeScore) + ".", headerls1, 400, 2, 2, 0);
 		draw_text_ext_transformed(x, y+headersp2, "If you ever want to see Heaven, you'll have to do much better than that. Sucks how hard it is to be good, huh?", headerls2, 480, 1.5, 1.5, 0);
 		draw_set_color(c_red)
 		draw_text_ext_transformed(x, y+headersp3, "You weren't good enough to escape Hell...", headerls2, 440, 1.75, 1.75, 0);
+	}
 }
 
 draw_set_color(c_white)

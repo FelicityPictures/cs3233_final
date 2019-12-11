@@ -1,0 +1,1 @@
+dialogueSequence[0] = ["The sleepy 6 AM New York City skyline stares back at you."]
