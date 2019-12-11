@@ -32,7 +32,11 @@ if(global.inDialogue && array_length_1d(narrationSequence[currentProgress]) > 1)
 }
 
 if(!global.inDialogue){
-	if(!is_undefined(ds_map_find_value(itemInteraction, "angel"))){
+	if(!angelArrived){
+		angelArrived = true
+		alarm[0] = 250
+	}
+	else if(!is_undefined(ds_map_find_value(itemInteraction, "angel"))){
 		room_goto(rm_playAgain)
 	}
 }

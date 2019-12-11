@@ -4,3 +4,5 @@ narrationSequence[0] = ["Well I guess this was to be expected. You cross a drug 
 currentProgress = 0
 
 itemInteraction = ds_map_create()
+
+angelArrived = false

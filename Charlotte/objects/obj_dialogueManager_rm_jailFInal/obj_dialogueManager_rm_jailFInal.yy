@@ -2,7 +2,7 @@
     "id": "82081767-316c-4020-90ea-def90da64c0b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_dialogueManager_rm_jailFInal",
+    "name": "obj_dialogueManager_rm_jailFinal",
     "eventList": [
         {
             "id": "498d7149-2c3a-4b16-acc3-d2b540297e74",
@@ -25,13 +25,13 @@
             "m_owner": "82081767-316c-4020-90ea-def90da64c0b"
         },
         {
-            "id": "1969168f-68c1-4dc1-951f-06fee3fc6ffe",
+            "id": "ddd09339-35c7-4426-b005-db80980bf013",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 8,
+            "eventtype": 2,
             "m_owner": "82081767-316c-4020-90ea-def90da64c0b"
         }
     ],

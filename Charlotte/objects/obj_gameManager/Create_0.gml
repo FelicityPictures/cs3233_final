@@ -1,3 +1,5 @@
+global.afterlifeScore = 0
+
 global.clothesValue = 15
 global.swipeValue = 10
 global.fatherValue = 75

@@ -114,7 +114,7 @@
             "Key": "0ad6b10f-d80b-4331-8aeb-b74829c1059c",
             "Value": {
                 "id": "27cee41e-4379-4e77-98a1-6d92be86781b",
-                "resourcePath": "objects\\obj_angel_badEnding\\obj_angel_badEnding.yy",
+                "resourcePath": "objects\\obj_angel\\obj_angel.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "16f03f0d-caf6-4ca7-8a64-f23c1f2b1f4b",
+            "Value": {
+                "id": "2dcea654-81fc-4a96-8a87-a53f53b4d973",
+                "resourcePath": "objects\\obj_player_jail\\obj_player_jail.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "191dc746-1c04-4547-a16a-721dc8f8b56f",
             "Value": {
                 "id": "b13eb7a2-2aea-4e20-9747-4a775a3c8a0c",
@@ -252,14 +260,6 @@
                 "id": "95b1a831-fc20-47f0-a6ae-43ea17ec4a4a",
                 "resourcePath": "sprites\\spr_rm05_exit\\spr_rm05_exit.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "233fffb9-1e56-407c-9f9b-f5204f3e89bd",
-            "Value": {
-                "id": "96ea185c-b006-4ee5-98a3-319ea82c4acd",
-                "resourcePath": "objects\\obj_angel_goodEnding\\obj_angel_goodEnding.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -738,7 +738,7 @@
             "Key": "70083449-0466-47d0-a5a1-0a3169494468",
             "Value": {
                 "id": "6c8fb699-d784-46a9-83c5-11b5db1ea16a",
-                "resourcePath": "rooms\\rm_jail\\rm_jail.yy",
+                "resourcePath": "rooms\\rm_jail_final\\rm_jail_final.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -802,7 +802,7 @@
             "Key": "82081767-316c-4020-90ea-def90da64c0b",
             "Value": {
                 "id": "45998ee3-d4b7-4f93-a522-cf60dbbe4b40",
-                "resourcePath": "objects\\obj_dialogueManager_rm_jailFInal\\obj_dialogueManager_rm_jailFInal.yy",
+                "resourcePath": "objects\\obj_dialogueManager_rm_jailFinal\\obj_dialogueManager_rm_jailFinal.yy",
                 "resourceType": "GMObject"
             }
         },
