@@ -16,3 +16,9 @@ if (not audio_is_playing(bg_bgm)){
 if not audio_is_playing(bg_bgm){
 	audio_play_sound(bg_bgm, 1, true)
 }
+
+// sinfully hardcoded room boundaries
+boundary_up = 180
+boundary_left = 220
+boundary_right = 1060
+boundary_down = 605

@@ -1,20 +1,10 @@
-// sinfully hardcoded room boundaries
-boundary_up = 180
-boundary_left = 220
-boundary_right = 1060
-boundary_down = 605
-if (x < boundary_left) { x = boundary_left; }
-if (x > boundary_right) { x = boundary_right; }
-if (y < boundary_up) { y = boundary_up; }
-if (y > boundary_down) { y = boundary_down; }
-
 if(!global.inDialogue){
 	if(keyboard_check(vk_right)){
 		x += velocity
 		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y+(sprite_height/4),
 							   x+(sprite_width/2), y+(sprite_height/2),
 							   obj_interact, false, true)
-		if(bumpedIntoObject != noone){
+		if(bumpedIntoObject != noone or x > boundary_right){
 			// play bumping sound
 			if(!audio_is_playing(sfx_bump)){
 				audio_play_sound(sfx_bump, 2, false)
@@ -29,7 +19,7 @@ if(!global.inDialogue){
 		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y+(sprite_height/4),
 							   x+(sprite_width/2), y+(sprite_height/2),
 							   obj_interact, false, true)
-		if(bumpedIntoObject != noone){
+		if(bumpedIntoObject != noone or x < boundary_left){
 			// play bumping sound
 			if(!audio_is_playing(sfx_bump)){
 				audio_play_sound(sfx_bump, 2, false)
@@ -45,7 +35,7 @@ if(!global.inDialogue){
 		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y+(sprite_height/4),
 							   x+(sprite_width/2), y+(sprite_height/2),
 							   obj_interact, false, true)
-		if(bumpedIntoObject != noone){
+		if(bumpedIntoObject != noone or y < boundary_up){
 			// play bumping sound
 			if(!audio_is_playing(sfx_bump)){
 				audio_play_sound(sfx_bump, 2, false)
@@ -60,7 +50,7 @@ if(!global.inDialogue){
 		bumpedIntoObject = collision_rectangle(x-(sprite_width/2), y+(sprite_height/4),
 							   x+(sprite_width/2), y+(sprite_height/2),
 							   obj_interact, false, true)
-		if(bumpedIntoObject != noone){
+		if(bumpedIntoObject != noone or y > boundary_down){
 			// play bumping sound
 			if(!audio_is_playing(sfx_bump)){
 				audio_play_sound(sfx_bump, 2, false)
