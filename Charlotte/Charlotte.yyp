@@ -1319,6 +1319,14 @@
             }
         },
         {
+            "Key": "d70fd43c-a81b-462c-8335-0723838f68a9",
+            "Value": {
+                "id": "b2b46dea-273a-4e1c-95d5-76bee9fd1ff4",
+                "resourcePath": "sprites\\Player_In_Orange\\Player_In_Orange.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d725e42b-609b-44f7-b0d6-dd054d4bfd0d",
             "Value": {
                 "id": "c8a7896b-e7bf-4ec9-852c-d7289b567c4c",
