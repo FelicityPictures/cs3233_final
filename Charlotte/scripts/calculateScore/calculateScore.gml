@@ -35,25 +35,18 @@ if(!is_undefined(vacation)){
 		score -= global.vacationValue
 	}
 }
+if(!is_undefined(father)){
+	if(father == 1){
+		score -= global.fatherValue
+	}else{
+		score += global.fatherValue
+	}
+}
 if(!is_undefined(jail)){
 	if(jail == 1){
-		score += global.jailValue
-		if(!is_undefined(father)){
-			if(father == 1){
-				score -= global.fatherValue
-			}else{
-				score += global.fatherValue
-			}
-		}
-	}else{
 		score -= global.jailValue
-		if(!is_undefined(father)){
-			if(father == 1){
-				score -= global.fatherValue
-			}else{
-				score -= global.fatherValue*2
-			}
-		}
+	}else{
+		score += global.jailValue
 	}
 }
 
