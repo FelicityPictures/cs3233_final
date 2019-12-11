@@ -3,11 +3,6 @@ if(global.inDialogue){
 		// uses array to branch
 		if(currentInteraction == "client_father" && currentProgress == 15){
 			ds_map_add(global.choices, "small client", choice)
-			newChoice = instance_create_depth(0, 300, -100, obj_choiceCreation)
-			newChoice.choiceNumber = choice
-			c = choice - 1
-			newChoice.interaction = (narrationSequence[currentProgress])
-			newChoice.interaction = newChoice.interaction[c]
 		}
 		currentProgress = (currentProgress * 2) + choice
 	}

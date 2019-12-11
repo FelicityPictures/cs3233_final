@@ -3,11 +3,6 @@ if(global.inDialogue){
 		// uses array to branch
 		if(currentInteraction == "wardrobe" && currentProgress == 0){
 			ds_map_add(global.choices, "clothingChoice", choice)
-			newChoice = instance_create_depth(0, 200, -100, obj_choiceCreation)
-			newChoice.choiceNumber = choice
-			c = choice - 1
-			newChoice.interaction = (narrationSequence[currentProgress])
-			newChoice.interaction = newChoice.interaction[c]
 		}
 		currentProgress = (currentProgress * 2) + choice
 	}
